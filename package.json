@@ -1,8 +1,8 @@
 {
   "name": "picberry-site",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
-  "description": "Public privacy policy and support for Picberry.",
+  "description": "Picberry for Mac: product overview, privacy policy, and support.",
   "scripts": {
     "check": "python3 scripts/check.py",
     "build": "python3 scripts/build.py",

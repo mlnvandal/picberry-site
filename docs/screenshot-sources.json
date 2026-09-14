@@ -1,0 +1,41 @@
+{
+  "application": "Picberry",
+  "captureSet": "0.1.267-a4163826b2ed9990",
+  "capturedOn": "2026-09-05",
+  "captureStatus": "latest successful capture; not the current application build",
+  "fixture": "test-media/app-store-review/screenshot-allowlist.json",
+  "fixtureRightsBasis": "manifest-cc0-no-declared-restrictions",
+  "encoding": "cwebp -q 88 -m 6 -resize 2240 1400; complete image, no cropping or compositing",
+  "assets": [
+    {
+      "asset": "site/assets/screenshots/library.webp",
+      "source": "build/app-store-screenshots/sets/0.1.267-a4163826b2ed9990/raw/mac/02-mac-media-grid.png",
+      "sourceSha256": "8d7aa6f6ac960974a04d7b826bfb545d78b407437f8c966e3dbf262aecd9e781",
+      "sourceDimensions": [
+        2880,
+        1800
+      ],
+      "outputSha256": "8e4625430ffdc7ef55714d16d45b3bf28644cc79ff1458eadf1f0914efe314ef",
+      "outputDimensions": [
+        2240,
+        1400
+      ],
+      "bytes": 258232
+    },
+    {
+      "asset": "site/assets/screenshots/preview.webp",
+      "source": "build/app-store-screenshots/sets/0.1.267-a4163826b2ed9990/raw/mac/03-mac-bled-preview.png",
+      "sourceSha256": "23725e984864c509eb3e15f68966df0b6cb62fa41f5e9d2f3d0171621668fbc2",
+      "sourceDimensions": [
+        2880,
+        1800
+      ],
+      "outputSha256": "ce106f923fc939eb98d79c671ca2f096ec7a13a7ee0d4b6d34cfb61bbf4d6613",
+      "outputDimensions": [
+        2240,
+        1400
+      ],
+      "bytes": 242112
+    }
+  ]
+}

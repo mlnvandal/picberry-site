@@ -1,6 +1,6 @@
 # Picberry website
 
-Public privacy information and support for Picberry. This standalone static website is hosted on GitHub Pages; maintaining its published pages does not depend on a ChatGPT subscription.
+A concise product overview, privacy information, and support for Picberry. This standalone static website is hosted on GitHub Pages; maintaining its published pages does not depend on a ChatGPT subscription.
 
 - [Website](https://mlnvandal.github.io/picberry-site/)
 - [Privacy Policy](https://mlnvandal.github.io/picberry-site/privacy/)
@@ -9,6 +9,18 @@ Public privacy information and support for Picberry. This standalone static webs
 The public identity is **Picberry**. Use the product name and contact email in public copy and Git authorship; do not publish the owner's personal name.
 
 The public support and privacy contact is **milanvandal@gmail.com**. There are no visitor accounts, forms, JavaScript, analytics, external fonts, or cookies set by this website. GitHub operates the hosting infrastructure under its own privacy terms.
+
+<details><summary>Homepage overview and screenshots</summary>
+
+The homepage introduces the Mac app with a Library screenshot, three short descriptions of browsing, Albums/Favorites, and People, and a Preview screenshot explaining filmstrip navigation and slideshow playback. A local-processing statement links to the Privacy Policy. No release date, store availability, download button, or purchase flow is implied.
+
+The layout uses the app's dark colors and native squircle geometry, with a standard rounded fallback in browsers that do not support `corner-shape`. Feature columns stack on smaller screens. Both images preserve their full content and aspect ratio; the lower image loads lazily. The remaining pages retain their existing layout.
+
+Screenshot sources and hashes are recorded in `docs/screenshot-sources.json`. The two WebP assets come from the last successful build-owned capture set, `0.1.267-a4163826b2ed9990` (September 5, 2026). This set predates the current desktop version; a newer failed capture attempt kept it as the last-good set. Do not treat these images as proof of current-build or App Store readiness.
+
+When replacing images, select a complete successful capture set, visually check each screenshot for private paths, personal details, loading states, and obsolete UI, and keep the product copy accurate. Use the existing capture fixture's rights records. Re-encode complete images as local WebP assets, update provenance and the website version/changelog, then run the normal checks and inspect desktop/mobile rendering. Do not edit the application, its canonical screenshot sources, or icon as part of website maintenance.
+
+</details>
 
 <details><summary>Edit, check, and preview</summary>
 

@@ -3,24 +3,60 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Picberry — Privacy and Support</title>
-  <meta name="description" content="Privacy information and support for Picberry, a photo and video library app for Mac.">
+  <meta name="theme-color" content="#1f2128">
+  <title>Picberry — Your photo and video library for Mac</title>
+  <meta name="description" content="Browse your photos and videos, create albums, find familiar faces, and enjoy a slideshow. Picberry brings your library together on your Mac.">
   <link rel="icon" href="assets/app-icon.png" type="image/png">
   <link rel="stylesheet" href="assets/site.css">
 </head>
-<body>
+<body class="landing">
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="./"><img class="brand-icon" src="assets/app-icon.png" width="40" height="40" alt=""><span>Picberry</span></a>
     <nav class="site-nav" aria-label="Main navigation"><a href="privacy/">Privacy</a><a href="support/">Support</a></nav>
   </header>
   <main id="main" class="page home">
-    <h1>Picberry</h1>
-    <p class="lead">Your photo and video library, on your Mac.</p>
-    <div class="page-links">
-      <a href="privacy/">Privacy Policy <span aria-hidden="true">↗</span></a>
-      <a href="support/">Support <span aria-hidden="true">↗</span></a>
+    <header class="hero">
+      <h1>Your library.<br><span>Rediscovered.</span></h1>
+      <p class="lead">A home for your photos and videos on Mac.<br class="desktop-break"> Browse, organize, and enjoy the moments you keep.</p>
+    </header>
+
+    <figure class="app-capture library-capture">
+      <img src="assets/screenshots/library.webp" width="2240" height="1400" fetchpriority="high" alt="Picberry's dark Library view with a photo grid and navigation for Browse, Favorites, People, and Albums.">
+    </figure>
+
+    <div class="feature-grid">
+      <section>
+        <h2>All your moments</h2>
+        <p>Browse photos and videos from the folders you choose, together in one visual library.</p>
+      </section>
+      <section>
+        <h2>Albums, your way</h2>
+        <p>Bring a trip or a story together in an album. Mark your favorites to find them again.</p>
+      </section>
+      <section>
+        <h2>Familiar faces</h2>
+        <p>Turn on People recognition to group photos by the people in them. Processing stays on your Mac.</p>
+      </section>
     </div>
+
+    <section class="viewing" aria-labelledby="viewing-title">
+      <div class="section-intro">
+        <h2 id="viewing-title">A little less scrolling.<br>A little more looking.</h2>
+        <p>Open a photo with room to enjoy it. Move through your library with the filmstrip, or press play for a slideshow.</p>
+      </div>
+      <figure class="app-capture preview-capture">
+        <img src="assets/screenshots/preview.webp" width="2240" height="1400" loading="lazy" decoding="async" alt="A mountain photograph in Picberry Preview, with a blue background and a vertical filmstrip of nearby photos.">
+      </figure>
+    </section>
+
+    <section class="local-library" aria-labelledby="local-title">
+      <div>
+        <h2 id="local-title">Your Mac. Your library.</h2>
+        <p>Your library is processed locally. No Picberry account or Picberry cloud upload is required.</p>
+      </div>
+      <a href="privacy/">Read the Privacy Policy <span aria-hidden="true">↗</span></a>
+    </section>
   </main>
   <footer class="site-footer"><p>© 2026 Picberry</p><a href="mailto:milanvandal@gmail.com">milanvandal@gmail.com</a></footer>
 </body>

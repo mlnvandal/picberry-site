@@ -5,7 +5,7 @@ The website provides the public privacy and support information for Picberry. It
 ## Routes and publication
 
 - `/` provides product identification and links to the two information pages.
-- `/privacy/` contains the effective date, developer identity, local processing and storage practices, device connections, support handling, Apple services, website hosting, and privacy contact.
+- `/privacy/` contains the effective date, product identity and contact, local processing and storage practices, device connections, support handling, Apple services, website hosting, and privacy contact.
 - `/support/` contains the public support email, supported Mac requirements, and verified troubleshooting actions.
 - `/404.html` provides a working route back to the site root from unknown URLs.
 - Directory `index.html` files give stable extension-free paths. Source paths do not include Jekyll dates, categories, or `.html` in public links.
@@ -14,6 +14,7 @@ The website provides the public privacy and support information for Picberry. It
 
 ## Content and presentation
 
+- Public identity is Picberry. Use the contact email instead of publishing the owner's personal name, including in footers, policy copy, repository documentation, and commit authorship.
 - Public copy is in English and uses `milanvandal@gmail.com` for support and privacy requests, as provided by the owner for publication.
 - Do not claim release availability, approval by Apple, cloud sync, Intel support, automatic diagnostics uploads, or unsupported features.
 - Describe local processing separately from voluntary support correspondence and the hosting provider's technical logs.

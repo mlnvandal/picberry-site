@@ -6,6 +6,8 @@ Public privacy information and support for Picberry. This standalone static webs
 - [Privacy Policy](https://mlnvandal.github.io/picberry-site/privacy/)
 - [Support](https://mlnvandal.github.io/picberry-site/support/)
 
+The public identity is **Picberry**. Use the product name and contact email in public copy and Git authorship; do not publish the owner's personal name.
+
 The public support and privacy contact is **milanvandal@gmail.com**. There are no visitor accounts, forms, JavaScript, analytics, external fonts, or cookies set by this website. GitHub operates the hosting infrastructure under its own privacy terms.
 
 <details><summary>Edit, check, and preview</summary>

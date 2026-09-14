@@ -3,6 +3,7 @@
 This repository owns only the public privacy and support website. The desktop and companion applications are separate repositories and must not be changed by website work.
 
 - Read `docs/specs/public-pages.md` before behavior or publication changes.
+- Use Picberry as the public identity in pages, documentation, and Git author/committer names. Do not publish the owner's personal name; use the approved contact email.
 - Keep public content factual and in English. Preserve the approved contact email unless the owner changes it.
 - Keep the site static: no analytics, visitor forms, client-side JavaScript, external fonts, cookies, or backend without explicit owner authorization.
 - Preserve `/privacy/` and `/support/`. Only `site/` belongs in the Pages artifact.
